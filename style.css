@@ -1,0 +1,62 @@
+#soleil {
+    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+}
+
+
+.fleximg {
+        height: 70%;
+        min-height: 105px;
+        min-width: 40%;
+        flex-grow: 1;
+        max-height: 100%;
+        background-size: cover;
+        background-position: center center;
+}
+
+
+
+.infos {
+    background-color: white;
+    height: 30%;
+    min-width: 60%;
+    flex-grow: 1;
+}
+
+.bordrond, .fleximg {
+    border-radius: 12px;
+}
+
+
+.hebergements {
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+    height: 150px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    border: solid 5px white;
+    align-items: stretch;
+    width: 100%;
+    height: 50%;
+}
+
+
+#Cannebiere {
+    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+   
+}
+
+
+#Entete {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+}
+
+i {
+  color: blue;
+}
