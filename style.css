@@ -1,89 +1,181 @@
+
+.pop {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    color: black;
+    font-size: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.conteneur_populaires {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 12px;
+  justify-content: space-around;
+}
+
+#Bleu {
+  background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+}
+
+#Coeur {
+  background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+}
+
+#Matin {
+  background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marge {
+  width: 90%;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+}
+
+.conteneur_hebergement {
+  max-width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #f2f2f2;
+  border-radius: 12px;
+  justify-content: space-around;
+}
+
+#Amina {
+  background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+}
+
+#Panier {
+  background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+}
+
+#Mer {
+  background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+}
+
+#Mouettes {
+  background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+}
+
+#Port {
+  background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+}
+
+#Cannebiere {
+  background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+}
+
+.infos > span {
+  margin-left: 5%;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+.vertical > .images-vertical {
+  width: 100%;
+}
+
+.filtres {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 30px 0 20px;
+  padding-left: 30px;
+  width: 30%;
+  list-style: none;
+}
+
 .footer_title li {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .footer_title h3 {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 footer {
-    display: flex;
-    align-items: flex-start;
-    margin: auto;
-    background-color: #F2F2F2;
+  display: flex;
+  align-items: flex-start;
+  margin: auto;
+  background-color: #f2f2f2;
+  width: 100%;
 }
 
 .footer_title {
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0 20px;
-    padding-left: 30px;
-    width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 20px;
+  padding-left: 30px;
+  width: 30%;
 }
-
 
 .list-style {
-    list-style: none;
-
+  list-style: none;
 }
-
-#soleil {
-    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-}
-
-
-.fleximg {
-        height: 70%;
-        min-height: 105px;
-        min-width: 40%;
-        flex-grow: 1;
-        max-height: 100%;
-        background-size: cover;
-        background-position: center center;
-}
-
-
 
 .infos {
-    background-color: white;
-    height: 30%;
-    min-width: 60%;
-    flex-grow: 1;
+  background-color: white;
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: black;
+  font-size: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
-.bordrond, .fleximg {
-    border-radius: 12px;
+.bordrond {
+  border-radius: 12px;
 }
-
 
 .hebergements {
-    background-size: cover;
-    background-position: center center;
-    width: 200px;
-    height: 150px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    display: flex;
-    border: solid 5px white;
-    align-items: stretch;
-    width: 100%;
-    height: 50%;
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  height: 150px;
+  flex-wrap: wrap;
+  display: flex;
+  border: solid 5px white;
+  position: relative;
+  background-color: white;
 }
-
-
-#Cannebiere {
-    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-   
-}
-
 
 #Entete {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #F2F2F2;
+  width: 100%;
 }
 
 i {
