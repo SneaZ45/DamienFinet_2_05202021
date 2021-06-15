@@ -1,4 +1,45 @@
 
+.conteneur_filter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+
+}
+
+.conteneur_filter ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.conteneur_filter ul li {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.filter {
+  position: relative;
+  height: 14px;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 20px;
+  padding: 7px 13px 7px 3px;
+}
+
+.filter li a:hover {
+  text-decoration: none;
+  color: #0065fc;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.filter li a {
+  text-decoration: none;
+}
+
+.conteneur_filter h3 {
+  padding-left: 5px;
+}
+
 #sous_titre {
   display: flex;
   position: relative;
@@ -456,7 +497,7 @@ footer {
 }
 
 i {
-  color: blue;
+  color: #0065fc;
 }
 
 @media (max-width: 1600px) {
