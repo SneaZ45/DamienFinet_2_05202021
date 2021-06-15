@@ -1,3 +1,26 @@
+
+#sous_titre {
+  display: flex;
+  position: relative;
+  left: 63px;
+  bottom: 50px;
+}
+
+.texte {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  position: relative;
+  font-size: 1.5em;
+}
+
+#logo {
+  display: flex;
+  width: 10%;
+  position: relative;
+  left: 50px;
+}
+
 .Garde {
   background-color: white;
   width: 100%;
@@ -349,11 +372,13 @@ html {
   justify-content: space-around;
   display: flex;
   align-items: center;
-  margin: 30px 0 20px;
-  padding-left: 30px;
-  width: 30%;
+  margin: 80px 0 20px;
+  width: 65%;
   list-style: none;
-  padding-left: 0px;
+  padding-left: 15px;
+  border-radius: 0px 0px 22px 22px;
+  -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.4);
 }
 
 .footer_title li {
