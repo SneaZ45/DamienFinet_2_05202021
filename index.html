@@ -17,6 +17,11 @@
   </head>
   <body>
     <header>
+      <div class="menu">
+        <div id="menu1" class="menu_bouttons">Hébergements</div>
+        <div id="menu2" class="menu_bouttons">Activités</div>
+        <div class="menu_bouttons gras">S'inscrire</div>
+      </div>
       <img src="images/logo/Reservia@3x.png" id="logo" />
       <div class="texte">
         <span class="marge_default gras texte">
@@ -24,12 +29,15 @@
         </span>
         <div id="sous_titre">
           <span>En plein centre ville ou pleine nature</span>
-          <form>
-            <p>Hébergements</p>
-          </form>
         </div>
       </div>
     </header>
+
+    <div class="recherche bordrond marge_default">
+      <div class="icone_map"><i class="fas fa-map-marker-alt fleche"></i></div>
+      <input class="input" placeholder="Marseille, France">
+      <div class="boutton"><button>Rechercher</button></div>
+    </div>
 
     <div class="conteneur_filter marge_default">
       <h3>Filtres</h3>
@@ -130,52 +138,50 @@
       </div>
     </div>
 
-    <div class="conteneur_activites bordrond">
+    <div class="conteneur_activites">
       <h2 class="title">Activités à Marseille</h2>
-      <div class="grande">
-        <div id="Vieux" class="special bordrond">
-          <div class="Port">
-            <span class="gras">Vieux Port</span>
+      <div class="conteneur_vfi">
+        <div class="vfi">
+          <div id="Vieux" class="special grande bordrond">
+            <div class="Bandeau">
+              <span class="gras">Vieux Port</span>
+            </div>
+          </div>
+
+          <div class="column">
+            <div id="Fort" class="special petit bordrond">
+              <div class="Bandeau">
+                <span class="gras">Fort de Pomègues</span>
+              </div>
+            </div>
+
+            <div id="Îles" class="special petit bordrond">
+              <div class="Bandeau">
+                <span class="gras">Îles du Frioul</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="moyen">
-        <div id="Fort" class="special bordrond">
-          <div class="Pom">
-            <span class="gras">Fort de Pomègues</span>
+        <div class="vfi">
+          <div id="Parc" class="special grande bordrond">
+            <div class="Bandeau">
+              <span class="gras">Parc National des Calanques</span>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="petite">
-        <div id="Îles" class="special bordrond">
-          <div class="Frioul">
-            <span class="gras">Îles du Frioul</span>
-          </div>
-        </div>
-      </div>
+          <div class="column">
+            <div id="Dame" class="special petit bordrond">
+              <div class="Bandeau">
+                <span class="gras">Notre-Dame-de-la-Garde</span>
+              </div>
+            </div>
 
-      <div class="grande2">
-        <div id="Parc" class="special bordrond">
-          <div class="Calanques">
-            <span class="gras">Parc National des Calanques</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="petite2">
-        <div id="Dame" class="special bordrond">
-          <div class="Garde">
-            <span class="gras">Notre-Dame-de-la-Garde</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="moyen_droite">
-        <div id="Longchamp" class="special bordrond">
-          <div class="Long">
-            <span class="gras">Parc Longchamp</span>
+            <div id="Longchamp" class="special petit bordrond">
+              <div class="Bandeau">
+                <span class="gras">Parc Longchamp</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
